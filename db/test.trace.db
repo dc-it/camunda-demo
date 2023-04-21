@@ -1,0 +1,14 @@
+2023-04-21 18:40:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACT_RU_METER_LOG" not found (this database is empty); SQL statement:
+insert into ACT_RU_METER_LOG (ID_, NAME_, REPORTER_, VALUE_, TIMESTAMP_, MILLISECONDS_)
+    values (
+    ?,
+    ?,
+    ?,
+    ?,
+    ?,
+    ?
+    ) [42104-210]
+2023-04-21 18:40:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACT_GE_PROPERTY" not found (this database is empty); SQL statement:
+select * from ACT_GE_PROPERTY where NAME_ = ? [42104-210]
